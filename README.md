@@ -1,8 +1,7 @@
 # SwapCart - AI-Powered Crypto Payment Gateway
 
 ![SwapCart](https://img.shields.io/badge/Crypto-Payment%20Gateway-blue)
-![Built with Lovable](https://img.shields.io/badge/Built%20with-Lovable-purple)
-
+ 
 ## 🚀 What is SwapCart?
 
 SwapCart is the **first AI-powered cryptocurrency payment gateway** that revolutionizes how merchants accept crypto payments and how customers pay with their preferred cryptocurrency.
@@ -201,10 +200,7 @@ Accept crypto donations from any network.
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 18+ and npm installed ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
-- Basic understanding of React and TypeScript
-
+ 
 ### Installation
 
 ```bash
