@@ -10,7 +10,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "serve": "node serve.js"
+    "serve": "set PORT=%PORT%&& if \"%PORT%\"==\"\" set PORT=8080&& vite preview --port %PORT% --host 0.0.0.0"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

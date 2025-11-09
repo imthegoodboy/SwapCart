@@ -49,6 +49,11 @@ Once deployment is complete, click on your service URL to test the application.
 
 ## Troubleshooting
 
+### Host Not Allowed Error
+If you see "Blocked request. This host is not allowed" error, this has been fixed by:
+- Setting `allowedHosts: true` in `vite.config.ts` preview configuration
+- This allows all hosts for Render deployment
+
 ### Build Fails
 - Check that all dependencies are listed in `package.json`
 - Ensure your build scripts are correct
