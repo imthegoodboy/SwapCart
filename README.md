@@ -156,7 +156,7 @@ POST https://sideshift.ai/api/v2/shifts
 - **shadcn/ui**: Premium UI components
 - **React Router**: Multi-page navigation
 
-### Backend (Lovable Cloud + Supabase)
+### Backend (  Supabase)
 - **Supabase Database**: PostgreSQL for products, orders, chat history
 - **Supabase Auth**: User authentication (future feature)
 - **Supabase Edge Functions**: Serverless backend logic
@@ -222,15 +222,7 @@ npm run dev
 Create a `.env` file in the root directory with your configuration:
 
 ```bash
-# Frontend Environment Variables
-VITE_SUPABASE_URL=your_supabase_url_here
-VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key_here
-VITE_SUPABASE_PROJECT_ID=your_supabase_project_id_here
-
-# Backend Environment Variables (for Supabase Edge Functions)
-SUPABASE_URL=your_supabase_url_here
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key_here
-GEMINI_API_KEY=your_google_gemini_api_key_here
+ 
 ```
 
 **Get your credentials:**
@@ -305,9 +297,8 @@ swapcart/
 
 - **Frontend**: React, TypeScript, Vite, Tailwind CSS
 - **UI Components**: shadcn/ui, Radix UI
-- **Backend**: Supabase (Lovable Cloud)
+- **Backend**: Supabase  
 - **Database**: PostgreSQL
-- **AI**: Lovable AI (Google Gemini 2.5 Flash)
 - **Payment Processing**: SideShift Pay API
 - **Blockchain**: Multi-chain support (BTC, ETH, SOL, etc.)
 
@@ -316,17 +307,9 @@ swapcart/
 ## 📦 Deployment
 
 ### Deploy with Lovable
-
-1. Open your [Lovable Project](https://lovable.dev/projects/d8f166ea-6555-4b0c-b242-2a158b790fba)
-2. Click **Share → Publish**
-3. Your app is live instantly!
-
-### Custom Domain
-
-Connect your own domain in Project > Settings > Domains.
-
-Read more: [Custom Domain Setup](https://docs.lovable.dev/features/custom-domain)
-
+ 
+ 
+ 
 ---
 
 ## 🤝 Contributing
@@ -334,20 +317,8 @@ Read more: [Custom Domain Setup](https://docs.lovable.dev/features/custom-domain
 This is an independent project built with modern web technologies. Feel free to fork and customize for your needs!
 
 ---
-
-## 📄 License
-
-MIT License - feel free to use this project for learning or commercial purposes.
-
----
-
-## 💬 Support
-
-- **Documentation**: [React Documentation](https://react.dev)
-- **SideShift API**: [SideShift Docs](https://sideshift.ai/api)
-- **Community**: [GitHub Discussions](https://github.com/your-repo/discussions)
-
----
+ 
+ 
 
 ## 🌟 Why SwapCart Matters
 
