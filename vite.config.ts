@@ -11,7 +11,7 @@ export default defineConfig({
   preview: {
     host: "0.0.0.0",
     port: parseInt(process.env.PORT || "8080"),
-    allowedHosts: ["swapcart.onrender.com", "*.onrender.com"],
+    allowedHosts: true, // Allow all hosts for Render deployment
   },
   plugins: [react()],
   resolve: {
