@@ -8,6 +8,11 @@ export default defineConfig({
     host: "0.0.0.0",
     port: parseInt(process.env.PORT || "8080"),
   },
+  preview: {
+    host: "0.0.0.0",
+    port: parseInt(process.env.PORT || "8080"),
+    allowedHosts: ["swapcart.onrender.com", "*.onrender.com"],
+  },
   plugins: [react()],
   resolve: {
     alias: {
