@@ -34,6 +34,7 @@ This guide will help you deploy your SwapCart application to Render.
    VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_publishable_key
    VITE_SUPABASE_PROJECT_ID=your_supabase_project_id
    GEMINI_API_KEY=your_gemini_api_key
+   PORT=8080
    ```
 
 6. Click "Create Web Service"
